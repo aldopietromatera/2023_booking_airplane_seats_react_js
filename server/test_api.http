@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/flights
+
+###
+GET http://localhost:3001/api/flights/-1/bookings
+###
+
+###
+GET http://localhost:3001/api/flights/-2/user-booking
+###
+
+## Deletes booking.
+DELETE http://localhost:3001/api/flights/1/user-booking HTTP/1.1
+###
